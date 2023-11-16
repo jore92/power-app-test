@@ -1,0 +1,66 @@
+Home As screen:
+
+    Rectangle1 As rectangle:
+        AccessibleLabel: =false
+        Fill: =RGBA(26, 27, 30, 1)
+        Height: =768
+        Width: =1366
+        ZIndex: =1
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(55, 58, 64, 1)
+        Fill: =RGBA(55, 58, 64, 1)
+        Height: =755
+        Width: =2
+        X: =120
+        Y: =5
+        ZIndex: =3
+
+    "'Home - Button - Home' As icon.Home":
+        AccessibleLabel: =false
+        Color: =RGBA(10, 194, 255, 1)
+        Height: =45
+        Icon: =Icon.Home
+        Width: =45
+        X: =37
+        Y: =168
+        ZIndex: =4
+
+    "'Home - Settings - Button' As icon.Settings":
+        Color: =RGBA(9, 184, 255, 1)
+        Height: =45
+        Icon: =Icon.Settings
+        OnSelect: =Navigate(Settings,ScreenTransition.Fade)
+        Width: =45
+        X: =37
+        Y: =696
+        ZIndex: =5
+
+    Image2 As image:
+        Height: =50
+        Image: =Group
+        Width: =50
+        X: =37
+        Y: =24
+        ZIndex: =6
+
+    "'Home - Apps - Button' As icon.DocumentwithContent":
+        Color: =RGBA(9, 184, 255, 1)
+        Height: =45
+        Icon: =Icon.DocumentWithContent
+        OnSelect: =Navigate(Apps,ScreenTransition.Fade)
+        Width: =45
+        X: =37
+        Y: =251
+        ZIndex: =7
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =86
+        Size: =40
+        Text: ="Home Screen"
+        Width: =353
+        X: =582
+        Y: =339
+        ZIndex: =8
+

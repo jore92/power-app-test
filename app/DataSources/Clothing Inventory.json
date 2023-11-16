@@ -1,0 +1,130 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crdbb_clothinginventories",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crdbb_clothinginventory",
+    "Name": "Clothing Inventory",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crdbb_brand": "brand",
+      "crdbb_clothinginventory_AsyncOperations": "System Jobs",
+      "crdbb_clothinginventory_BulkDeleteFailures": "Bulk Delete Failures",
+      "crdbb_clothinginventory_DuplicateBaseRecord": "Duplicate Records (crdbb_clothinginventory_DuplicateBaseRecord)",
+      "crdbb_clothinginventory_DuplicateMatchingRecord": "Duplicate Records (crdbb_clothinginventory_DuplicateMatchingRecord)",
+      "crdbb_clothinginventory_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crdbb_clothinginventory_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crdbb_clothinginventory_ProcessSession": "Process Sessions",
+      "crdbb_clothinginventory_SyncErrors": "Sync Errors",
+      "crdbb_clothinginventoryid": "Clothing Inventory",
+      "crdbb_clothingtype": "clothing_type",
+      "crdbb_color": "color",
+      "crdbb_inventory": "inventory",
+      "crdbb_material": "material",
+      "crdbb_pattern": "pattern",
+      "crdbb_price": "price",
+      "crdbb_price_base": "price (Base)",
+      "crdbb_season": "season",
+      "crdbb_size": "size",
+      "crdbb_style": "style",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Clothing Inventory",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Clothing Inventory (Views)",
+    "Name": "_crdbb_clothinginventory_views",
+    "RelatedEntityName": "Clothing Inventory",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "187a5e99-a82b-4712-90d6-31db7933d464": "Inactive Clothing Inventory",
+      "601c2dd5-1974-4c83-85a2-b1e2378b7a2b": "Active Clothing Inventory",
+      "6c5f775e-2df6-4d1c-a961-02cb18006510": "Clothing Inventory Advanced Find View",
+      "85ca1e9c-0af3-4e44-81b7-9f96e5836438": "Clothing Inventory Associated View",
+      "9de6c6fc-058a-4c8b-ad07-e226b1c5d8c9": "Clothing Inventory Lookup View"
+    }
+  },
+  {
+    "DisplayName": "season (Clothing Inventory)",
+    "Name": "crdbb_clothinginventory_crdbb_season",
+    "OptionSetInfoNameMapping": {
+      "0": "spring",
+      "1": "winter",
+      "2": "fall",
+      "3": "summer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crdbb_season",
+        "OptionSetReferenceEntityName": "Clothing Inventory"
+      }
+    },
+    "OptionSetTypeKey": "MultiSelectPicklistType",
+    "RelatedColumnInvariantName": "crdbb_season",
+    "RelatedEntityName": "Clothing Inventory",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Clothing Inventory)",
+    "Name": "crdbb_clothinginventory_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Clothing Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Clothing Inventory",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Clothing Inventory)",
+    "Name": "crdbb_clothinginventory_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Clothing Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Clothing Inventory",
+    "Type": "OptionSetInfo"
+  }
+]
