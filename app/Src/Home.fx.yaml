@@ -29,6 +29,7 @@ Home As screen:
     "'Home - Settings - Button' As icon.Settings":
         Color: =RGBA(9, 184, 255, 1)
         Height: =45
+        HoverColor: =ColorFade(Self.Color, 40%)
         Icon: =Icon.Settings
         OnSelect: =Navigate(Settings,ScreenTransition.Fade)
         Width: =45

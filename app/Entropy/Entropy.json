@@ -3,35 +3,35 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Apps": 12,
-    "Apps - Button - Apps": 17,
-    "Apps - Button - Home": 16,
-    "Apps - Button - Settings": 19,
-    "Home": 4,
-    "Home - Apps - Button": 9,
-    "Home - Button - Home": 8,
-    "Home - Settings - Button": 11,
+    "Apps": 4,
+    "Apps - Button - Apps": 9,
+    "Apps - Button - Home": 8,
+    "Apps - Button - Settings": 11,
+    "Home": 20,
+    "Home - Apps - Button": 25,
+    "Home - Button - Home": 24,
+    "Home - Settings - Button": 27,
     "Host": 3,
-    "Image2": 7,
-    "Image2_1": 15,
-    "Image2_2": 23,
-    "Label1": 10,
-    "Label1_1": 18,
-    "Label1_2": 26,
-    "Rectangle1": 5,
-    "Rectangle1_1": 13,
-    "Rectangle1_2": 21,
-    "Rectangle2": 6,
-    "Rectangle2_1": 14,
-    "Rectangle2_2": 22,
-    "Settings": 20,
-    "Settings - Button - Apps": 25,
-    "Settings - Button - Home": 24,
-    "Settings - Button - Settings": 27
+    "Image2": 23,
+    "Image2_1": 7,
+    "Image2_2": 15,
+    "Label1": 26,
+    "Label1_1": 10,
+    "Label1_2": 18,
+    "Rectangle1": 21,
+    "Rectangle1_1": 5,
+    "Rectangle1_2": 13,
+    "Rectangle2": 22,
+    "Rectangle2_1": 6,
+    "Rectangle2_2": 14,
+    "Settings": 12,
+    "Settings - Button - Apps": 17,
+    "Settings - Button - Home": 16,
+    "Settings - Button - Settings": 19
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/16/2023 17:23:54",
+  "HeaderLastSavedDateTimeUTC": "11/16/2023 17:33:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -39,7 +39,7 @@
     "Group": "c0047db6-f200-40eb-8dc4-b6b6127f07be.svg"
   },
   "LocalResourceRootPaths": {
-    "Group": "https://docserverpwaprodeus.blob.core.windows.net/972a410b-56f8-42f0-933a-d941bca0906d-1/resource/Assets0Images0c0047db6-f200-40eb-8dc4-b6b6127f07be.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T16%3A40%3A37Z&ske=2023-11-17T16%3A55%3A37Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T16%3A55%3A37Z&sr=b&sp=r&sig=2lsfsn1wijLWNESUCU7tzQaa7ZMS3It9dA4e1XsGzKA%3D"
+    "Group": "https://docserverpwaprodwus.blob.core.windows.net/57b2da54-1a84-467a-a3d6-31bc92b99ffe-1/resource/Assets0Images0c0047db6-f200-40eb-8dc4-b6b6127f07be.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T17%3A32%3A19Z&ske=2023-11-17T17%3A47%3A19Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T17%3A47%3A19Z&sr=b&sp=r&sig=JY4e12tVikM5zL%2F1rGKZOFtJ3Mp0PTbe7WyPhrikkoo%3D"
   },
   "OldLogoFileName": "cafauc5b.jpg",
   "OrderComponentMetadata": {},
@@ -125,7 +125,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1373891,
+    "AnalysisLoadTime": 0.1719283,
     "ControlCount": {
       "icon": 9,
       "image": 3,
@@ -133,7 +133,7 @@
       "rectangle": 6,
       "screen": 3
     },
-    "DeserializationLoadTime": 0.3614896
+    "DeserializationLoadTime": 0.9282736
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

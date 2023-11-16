@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crdbb_clothinginventory",
+    "MaxGetRowsCount": 500,
     "Name": "Clothing Inventory",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
